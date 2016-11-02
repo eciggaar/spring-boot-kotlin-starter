@@ -5,11 +5,13 @@ buildscript {
     dependencies {
         classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.3.5.RELEASE'
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.2'
+        classpath 'org.cloudfoundry:cf-gradle-plugin:1.1.3'
     }
 }
 
 apply plugin: 'kotlin'
 apply plugin: 'spring-boot'
+apply plugin: 'cloudfoundry'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8

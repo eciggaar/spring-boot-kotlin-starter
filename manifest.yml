@@ -1,5 +1,5 @@
 ---
 applications:
-- name: spring-boot-kotlin-starter
+- name: JFall2016-SpringBoot-kotlin-starter
   memory: 512M
   path: build/libs/kotlin-boot-cf-starter.jar
